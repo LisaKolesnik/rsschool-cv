@@ -12,16 +12,16 @@ Interested in studying this course for further development in the IT field. At t
 * Git
 * Figma
 * VSCode
- ## Code example
+## Code example
  ```javascript
-    function multiply(a, b){
-      console.log(a * b);
-      return a * b;
-    }
-  ```
-  ## Experience
-  [CV](https://LisaKolesnik.github.io/rsschool-cv/cv)
-  ## Education
-  Passed several marathons, which gave the foundations, acquired all other knowledge in the course of self-study
-  ## English
-  B1 (I had conversational practice, but not with native speakers)
+     function multiply(a, b){
+       console.log(a * b);
+       return a * b;
+     }
+ ```
+## Experience
+[CV](https://LisaKolesnik.github.io/rsschool-cv/cv)
+## Education
+Passed several marathons, which gave the foundations, acquired all other knowledge in the course of self-study
+## English
+B1 (I had conversational practice, but not with native speakers)
