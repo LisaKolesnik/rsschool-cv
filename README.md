@@ -1,3 +1,1 @@
-# rsschool-cv
-
-https://LisaKolesnik/rsschool-cv/cv
+# [rsschool-cv](https://LisaKolesnik/rsschool-cv/cv)
