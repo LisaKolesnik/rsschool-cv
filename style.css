@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Kiwi Maru", serif;
+  background: #e2e6ff;
+  font-size: 16px;
+}
+
+header .container {
+  background: #6970a2;
+  padding: 15px 50px;
+  border-radius:0 0 10px 10px;
+}
+
+nav {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #e2e6ff;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.nav-link:hover {
+  color: #9d99ff;
+}
+
+main {
+  color: #6970a2;
+}
+
+h1 {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  gap: 50px;
+}
+
+aside {
+  width: 350px;
+  background: #6970a2;
+  color: #e2e6ff;
+  margin: 150px 0 50px;
+  padding: 175px 0 40px;
+  position: relative;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 25px;
+  display: block;
+  position: absolute;
+  top: -75px;
+  left: 50px;
+}
+
+.aside-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 0 50px;
+}
+
+.line {
+  background: #e2e6ff;
+  height: 10px;
+  width: 90px;
+  border-radius: 10px 0 0 10px;
+}
+
+.aside-list {
+  list-style-image: url('./img/cat-footprint.png');
+  padding-left: 65px;
+}
+
+.aside-list li {
+  padding-top: 15px;
+  font-weight: 500;
+}
+
+.contacts-link {
+  color: #e2e6ff;
+  transition: .3s;
+  font-weight: 300;
+}
+
+.contacts-link:hover {
+  color: #9d99ff;
+}
+
+.info {
+  padding-top: 75px;
+}
+
+.title-descr {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about {
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+.about-list {
+  list-style-image: url('./img/cat-footprint-dark.png');
+  padding: 0 0 25px 25px;
+}
+
+.about-list li {
+  padding-top: 15px;
+  font-weight: 500;
+}
+
+.projects {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 590px;
+}
+
+.project-link img {
+  width: 270px;
+  border-radius: 10px;
+  border: 2px solid #6970a2;
+  box-shadow: 10px 10px 0 #6970a2;
+  transition: .3s;
+}
+
+.project-link:hover img {
+  border: 2px solid #4a4f73;
+  box-shadow: 10px 10px 0 #4a4f73;
+}
+
+pre {
+  border: 2px solid #6970a2;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 25px;
+  box-shadow: 10px 10px 0 #6970a2;
+  backdrop-filter: blur(5px);
+  width: 590px;
+}
+
+footer .container {
+  background: #6970a2;
+  color: #e2e6ff;
+  padding: 15px 50px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  color: #e2e6ff;
+  transition: .3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: #9d99ff;
+}
+
+.footer-icon {
+  fill: #e2e6ff;
+  transition: .3s;
+}
+
+.footer-link:hover .footer-icon {
+  fill: #9d99ff;
+}
